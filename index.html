@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino Slot Machine</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="slot-machine">
+        <!-- Top decoration lights -->
+        <div class="lights">
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+            <div class="light"></div>
+        </div>
+
+        <!-- Slot reels container -->
+        <div class="reels-container">
+            <div id="reelOne">❔</div>
+            <div id="reelTwo">❔</div>
+            <div id="reelThree">❔</div>
+            <!-- Decorative lever -->
+            <div class="lever"></div>
+        </div>
+
+        <!-- Message display area -->
+        <div id="message">Place your bet!</div>
+
+        <!-- Control buttons -->
+        <div class="controls">
+            <button id="minBet">Min Bet ($5)</button>
+            <button id="maxBet">Max Bet ($50)</button>
+        </div>
+
+        <!-- Balance display area -->
+        <div class="balance-display">
+            Balance: $<span id="balance">1000</span>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
